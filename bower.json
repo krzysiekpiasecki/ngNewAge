@@ -1,0 +1,23 @@
+{
+  "name": "new-age",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Krzysztof Piasecki <krzysiekpiasecki@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^1.11.3",
+    "simple-line-icons": "^2.3.2"
+  }
+}
