@@ -1,6 +1,6 @@
-import { Component, Injectable, AfterViewInit } from '@angular/core';
+import {Component, Injectable, AfterViewInit} from "@angular/core";
 
-declare var $:any;
+declare var $: any;
 
 @Component({
   selector: 'app-root',
