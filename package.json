@@ -1,6 +1,7 @@
 {
-  "name": "startbootstrap-new-age",
-  "version": "0.0.0",
+  "name": "new-age",
+  "description": "An Angular 2 app landing page theme from StartBootstrap collection",
+  "version": "1.0.3",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -12,7 +13,7 @@
     "e2e": "protractor",
     "postinstall": "./node_modules/bower/bin/bower install"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/common": "^2.3.1",
     "@angular/compiler": "^2.3.1",
@@ -27,7 +28,8 @@
     "ng2-scrollspy": "^0.3.6",
     "rxjs": "^5.0.1",
     "ts-helpers": "^1.1.1",
-    "zone.js": "^0.7.2"
+    "zone.js": "^0.7.2",
+    "bower": "^1.8.0"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^2.3.1",
@@ -45,7 +47,7 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.0.2",
-    "typescript": "~2.0.3",
-    "bower": "^1.8.0"
+    "typescript": "~2.0.3"
+
   }
 }
