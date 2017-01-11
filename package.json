@@ -1,19 +1,18 @@
 {
-  "name": "new-age",
-  "description": "An Angular 2 app landing page theme from StartBootstrap collection",
-  "version": "1.0.3",
+  "name": "startbootstrap-new-age",
+  "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
+    "start": "http-server",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
-    "pree2e": "webdriver-manager update --standalone false --gecko false",
+    "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "preinstall": "bower install; npm install -g http-server",
+    "postinstall": "ng build && mv dist/* ."
   },
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular/common": "^2.3.1",
     "@angular/compiler": "^2.3.1",
@@ -29,9 +28,6 @@
     "rxjs": "^5.0.1",
     "ts-helpers": "^1.1.1",
     "zone.js": "^0.7.2",
-    "bower": "^1.8.0"
-  },
-  "devDependencies": {
     "@angular/compiler-cli": "^2.3.1",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
@@ -47,7 +43,10 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.0.2",
-    "typescript": "~2.0.3"
+    "typescript": "~2.0.3",
+    "bower": "^1.7"
+  },
+  "devDependencies": {
 
   }
 }
