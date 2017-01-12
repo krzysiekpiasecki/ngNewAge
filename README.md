@@ -19,6 +19,7 @@ __[Live preview on Heroku](https://startbootstrap-new-age.herokuapp.com)__
 
 ```bash
 $ git clone https://github.com/krzysiekpiasecki/ngNewAge.git
+$ cd ngNewAge
 $ npm install
 $ ng serve
 
