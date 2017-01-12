@@ -34,11 +34,23 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <style type="text/css">
+    #loading {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -150px;
+      margin-top: -150px;
+    }
+  </style>
+
 </head>
 
 <body id="page-top">
 
-<app-root></app-root>
+<app-root><img id="loading" src="assets/img/loading.svg" /></app-root>
 
 <!-- jQuery -->
 <script src="assets/vendor/jquery/dist/jquery.js"></script>
