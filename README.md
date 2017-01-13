@@ -1,6 +1,6 @@
 # ngNewAge
 
-An Angular 2 app landing page theme from [StartBootstrap](https://startbootstrap.com) collection
+An Angular 2 app landing page theme
 
 <br>
 
