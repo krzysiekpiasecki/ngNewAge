@@ -1,6 +1,6 @@
 # ngNewAge
 
-An Angular 2 app landing page theme
+An Angular app landing page theme
 
 <br>
 
